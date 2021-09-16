@@ -39,6 +39,11 @@ namespace Checkout.Services
         {
             var result = _paymentsService.GetDetails(paymentId);
 
+            if (result == null)
+            {
+                return null;
+            }
+
             return new PaymentDetailsModel
                    {
                        PaymentId = result.PaymentId,

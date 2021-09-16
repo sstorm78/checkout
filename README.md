@@ -59,6 +59,7 @@ for successful but with a warning
 **Checkout.Api.Tests** is a set of tests for the API controller
 
 **Checkout.Models** a library of shared models
+
 **Checkout.Services** is the service layer with:
 
  - **PaymentProcessingService** Functional layer where all business logic is happening. In our case communication with an instance of a bank service, which could be an external API.

@@ -9,6 +9,7 @@ This project demonostrates a payment API and simulated bank service.
  - Bank simulator had to be injected into the Api project to simulate it.
  - There is a simple exception handling in place using Filters.
  - To emulate a database I instantiate a singleton DbContext with a List to create and retrieve the payments. 
+ - Normally I use async all the way, but since we have a simple db layer and no external api to call, it is not necessary
 
 # Structure
 

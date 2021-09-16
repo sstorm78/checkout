@@ -15,13 +15,17 @@ This project demonostrates a payment API and simulated bank service.
 
 **Checkout.Api** is the web api project with one controller exposing two endpoints:
 **POST** */payments*  accepts payment details and submits them to bank simulator for processing. **Important**, I did not implement input validation at this stage to save time BUT it is implemented down the process in the bank simulator.
+
 Returns:
 Status CREATED and location of the endpoint where details can be obtained
+
 Status BAD REQUEST when the payment declined, along with the reason
 
 **GET** */payments/{paymentId}* returns payment details
+
 Returns:
 Status OK with the payment details
+
 Status NOT FOUND if payment was not found
 
 **In a case when an exception occurs, it returns SERVICE UNAVAILABLE status**

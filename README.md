@@ -2,6 +2,13 @@
 
 This project demonostrates a payment API and simulated bank service.
 
+## Assumptions & Limitations
+
+
+ - I did separate layers with models and basic mappings but of course not completely, to save time. In the real world, I would use Automapper or alike to properly map objects between all layers.
+ - Bank simulator had to be injected into the Api project to simulate it.
+ - There is a simple exception handling in place using Filters.
+ - To emulate a database I instantiate a singleton DbContext with a List to create and retrieve the payments. 
 
 # Structure
 
@@ -16,10 +23,8 @@ Returns:
 Status OK with the payment details
 Status NOT FOUND if payment was not found
 
-In a case when an exception occurs, it returns SERVICE UNAVAILABLE status
+**In a case when an exception occurs, it returns SERVICE UNAVAILABLE status**
 
-There is a simple exception handling in place using Filters.
-It instantiates a singleton DbContext emulation to create and retrieve the payments.
 It provides Swagger UI, so you can try it out with:
 Request for successful transaction:
 
@@ -52,6 +57,7 @@ for successful but with a warning
     }
 
 **Checkout.Api.Tests** is a set of tests for the API controller
+
 **Checkout.Models** a library of shared models
 **Checkout.Services** is the service layer with:
 

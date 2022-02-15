@@ -3,21 +3,39 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31605.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkout.Api", "Checkout.Api\Checkout.Api.csproj", "{791EBAF4-6C47-4C40-87A9-6D8B7A7D98F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkout.Api", "Checkout\Checkout.Api\Checkout.Api.csproj", "{791EBAF4-6C47-4C40-87A9-6D8B7A7D98F8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkout.Bank", "Checkout.Bank\Checkout.Bank.csproj", "{438EB5EE-248A-4C25-B427-77FD40379791}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WestBank.Services", "WestBank\WestBank.Services\WestBank.Services.csproj", "{438EB5EE-248A-4C25-B427-77FD40379791}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkout.Bank.Data", "Checkout.Bank.Data\Checkout.Bank.Data.csproj", "{CA3F93B5-9DFE-4C5B-9E61-DCE64AA7AA36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WestBank.Data", "WestBank\WestBank.Data\WestBank.Data.csproj", "{CA3F93B5-9DFE-4C5B-9E61-DCE64AA7AA36}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkout.Bank.Tests", "Checkout.Bank.Tests\Checkout.Bank.Tests.csproj", "{8E110A21-1599-4953-B572-39744AAC9E26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WestBank.Services.Tests", "WestBank\Tests\WestBank.Services.Tests\WestBank.Services.Tests.csproj", "{8E110A21-1599-4953-B572-39744AAC9E26}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkout.Services", "Checkout.Services\Checkout.Services.csproj", "{BA39E349-8749-44F3-86A1-98850F793203}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkout.Services", "Checkout\Checkout.Services\Checkout.Services.csproj", "{BA39E349-8749-44F3-86A1-98850F793203}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkout.Models", "Checkout.Models\Checkout.Models.csproj", "{5A1C6021-37EA-43A2-AE0C-66591D74251B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkout.Models", "Checkout\Checkout.Models\Checkout.Models.csproj", "{5A1C6021-37EA-43A2-AE0C-66591D74251B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkout.Api.Tests", "Checkout.Api.Tests\Checkout.Api.Tests.csproj", "{7C9E05C4-D461-4FF5-BA88-959DE17D3191}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkout.Api.Tests", "Checkout\Tests\Checkout.Api.Tests\Checkout.Api.Tests.csproj", "{7C9E05C4-D461-4FF5-BA88-959DE17D3191}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkout.Services.Tests", "Checkout.Services.Tests\Checkout.Services.Tests.csproj", "{58EC08E6-7DBA-47D9-87B1-5A5E8CA8C82A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkout.Services.Tests", "Checkout\Tests\Checkout.Services.Tests\Checkout.Services.Tests.csproj", "{58EC08E6-7DBA-47D9-87B1-5A5E8CA8C82A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WestBank", "WestBank", "{6BD43951-78BC-4CEF-8DD5-DC0CF3076595}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WestBank.Models", "WestBank\WestBank.Models\WestBank.Models.csproj", "{3440BB5C-4267-44A9-861A-5EF9FB239033}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkout.ExternalClients", "Checkout\Checkout.ExternalClients\Checkout.ExternalClients.csproj", "{391F83F4-654E-4F12-9CB2-50D231A5DAD5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkout.ExternalServices.Tests", "Checkout\Tests\Checkout.ExternalServices.Tests\Checkout.ExternalServices.Tests.csproj", "{7FDE2458-7F52-4AA8-9B48-BEE792CCD221}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WestBank.Api", "WestBank\WestBank.Api\WestBank.Api.csproj", "{584A0710-400D-4FC5-826A-695070972E34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{14279348-AC76-4084-925D-BF5B36E9A625}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Checkout", "Checkout", "{85D7E5DF-BF19-445A-9C05-B66E375A7AC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{172E9458-046A-46E0-992B-CDD39B1E8E51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WestBank.Api.Tests", "WestBank\Tests\WestBank.Api.Tests\WestBank.Api.Tests.csproj", "{9B9A9440-B3BD-4F19-96BF-CFFD45FAD524}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,9 +75,46 @@ Global
 		{58EC08E6-7DBA-47D9-87B1-5A5E8CA8C82A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58EC08E6-7DBA-47D9-87B1-5A5E8CA8C82A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58EC08E6-7DBA-47D9-87B1-5A5E8CA8C82A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3440BB5C-4267-44A9-861A-5EF9FB239033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3440BB5C-4267-44A9-861A-5EF9FB239033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3440BB5C-4267-44A9-861A-5EF9FB239033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3440BB5C-4267-44A9-861A-5EF9FB239033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{391F83F4-654E-4F12-9CB2-50D231A5DAD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{391F83F4-654E-4F12-9CB2-50D231A5DAD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{391F83F4-654E-4F12-9CB2-50D231A5DAD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{391F83F4-654E-4F12-9CB2-50D231A5DAD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FDE2458-7F52-4AA8-9B48-BEE792CCD221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FDE2458-7F52-4AA8-9B48-BEE792CCD221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FDE2458-7F52-4AA8-9B48-BEE792CCD221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FDE2458-7F52-4AA8-9B48-BEE792CCD221}.Release|Any CPU.Build.0 = Release|Any CPU
+		{584A0710-400D-4FC5-826A-695070972E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584A0710-400D-4FC5-826A-695070972E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584A0710-400D-4FC5-826A-695070972E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584A0710-400D-4FC5-826A-695070972E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B9A9440-B3BD-4F19-96BF-CFFD45FAD524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B9A9440-B3BD-4F19-96BF-CFFD45FAD524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B9A9440-B3BD-4F19-96BF-CFFD45FAD524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B9A9440-B3BD-4F19-96BF-CFFD45FAD524}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{791EBAF4-6C47-4C40-87A9-6D8B7A7D98F8} = {85D7E5DF-BF19-445A-9C05-B66E375A7AC3}
+		{438EB5EE-248A-4C25-B427-77FD40379791} = {6BD43951-78BC-4CEF-8DD5-DC0CF3076595}
+		{CA3F93B5-9DFE-4C5B-9E61-DCE64AA7AA36} = {6BD43951-78BC-4CEF-8DD5-DC0CF3076595}
+		{8E110A21-1599-4953-B572-39744AAC9E26} = {14279348-AC76-4084-925D-BF5B36E9A625}
+		{BA39E349-8749-44F3-86A1-98850F793203} = {85D7E5DF-BF19-445A-9C05-B66E375A7AC3}
+		{5A1C6021-37EA-43A2-AE0C-66591D74251B} = {85D7E5DF-BF19-445A-9C05-B66E375A7AC3}
+		{7C9E05C4-D461-4FF5-BA88-959DE17D3191} = {172E9458-046A-46E0-992B-CDD39B1E8E51}
+		{58EC08E6-7DBA-47D9-87B1-5A5E8CA8C82A} = {172E9458-046A-46E0-992B-CDD39B1E8E51}
+		{3440BB5C-4267-44A9-861A-5EF9FB239033} = {6BD43951-78BC-4CEF-8DD5-DC0CF3076595}
+		{391F83F4-654E-4F12-9CB2-50D231A5DAD5} = {85D7E5DF-BF19-445A-9C05-B66E375A7AC3}
+		{7FDE2458-7F52-4AA8-9B48-BEE792CCD221} = {172E9458-046A-46E0-992B-CDD39B1E8E51}
+		{584A0710-400D-4FC5-826A-695070972E34} = {6BD43951-78BC-4CEF-8DD5-DC0CF3076595}
+		{14279348-AC76-4084-925D-BF5B36E9A625} = {6BD43951-78BC-4CEF-8DD5-DC0CF3076595}
+		{172E9458-046A-46E0-992B-CDD39B1E8E51} = {85D7E5DF-BF19-445A-9C05-B66E375A7AC3}
+		{9B9A9440-B3BD-4F19-96BF-CFFD45FAD524} = {14279348-AC76-4084-925D-BF5B36E9A625}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BD366AB6-0477-49FA-AF68-803548145A56}

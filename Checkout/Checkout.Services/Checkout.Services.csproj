@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Checkout.ExternalClients\Checkout.ExternalClients.csproj" />
+    <ProjectReference Include="..\Checkout.Models\Checkout.Models.csproj" />
+  </ItemGroup>
+
+</Project>

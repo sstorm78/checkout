@@ -25,6 +25,7 @@ This project demonostrates a payment API, second level Bank API and an API Clien
       "amount": 110,
       "currencyCode": "GBP"
     }
+	
 4. It will process the request all the way to the WestBank API and return 201 with Location header where the transaction details can be obtained.
 
 # Structure
